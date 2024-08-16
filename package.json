@@ -1,14 +1,19 @@
 {
   "name": "nodecode",
   "version": "1.0.0",
-  "description": "",
   "main": "harsh.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
-
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
