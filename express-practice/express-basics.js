@@ -13,7 +13,7 @@ app.get('/contact' , (req , res) => {
     res.send("<h1>Contact Page</h1>")
 })
 
-app.all('*' , (req , res) => {
+app.all('*' , (req , res) => { // '*' means all the routes that are not defined
     res.status(404).send("<h1>404 Page Not Found! :(</h1>")
 })
 
